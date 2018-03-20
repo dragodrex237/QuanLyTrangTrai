@@ -192,7 +192,7 @@
             this.Controls.Add(this.btSave);
             this.Controls.Add(this.dataGridView1);
             this.Name = "FormNhanVien";
-            this.Text = "FormNhanVien";
+            this.Text = "Quản Lý Nhân Viên";
             this.Load += new System.EventHandler(this.FormNhanVien_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyTrangTrai", "QuanLyTrangTrai\QuanLyTrangTrai.csproj", "{1DD57CB0-67C7-4BFB-A6B3-D4E5406EC979}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestTrangTrai", "UnitTestT4rangTrtai\UnitTestTrangTrai.csproj", "{2B235A3B-4FB8-4A5C-A06E-6F93AF9CDE01}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E730DA50-632E-4179-9C04-818CE292419F}"
 	ProjectSection(SolutionItems) = preProject
 		Local.testsettings = Local.testsettings
@@ -33,6 +35,16 @@ Global
 		{1DD57CB0-67C7-4BFB-A6B3-D4E5406EC979}.Release|Mixed Platforms.Build.0 = Release|x86
 		{1DD57CB0-67C7-4BFB-A6B3-D4E5406EC979}.Release|x86.ActiveCfg = Release|x86
 		{1DD57CB0-67C7-4BFB-A6B3-D4E5406EC979}.Release|x86.Build.0 = Release|x86
+		{2B235A3B-4FB8-4A5C-A06E-6F93AF9CDE01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B235A3B-4FB8-4A5C-A06E-6F93AF9CDE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B235A3B-4FB8-4A5C-A06E-6F93AF9CDE01}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2B235A3B-4FB8-4A5C-A06E-6F93AF9CDE01}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2B235A3B-4FB8-4A5C-A06E-6F93AF9CDE01}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2B235A3B-4FB8-4A5C-A06E-6F93AF9CDE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B235A3B-4FB8-4A5C-A06E-6F93AF9CDE01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B235A3B-4FB8-4A5C-A06E-6F93AF9CDE01}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2B235A3B-4FB8-4A5C-A06E-6F93AF9CDE01}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{2B235A3B-4FB8-4A5C-A06E-6F93AF9CDE01}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -133,7 +133,11 @@ namespace QuanLyTrangTrai
             {
                 try
                 {
-                    dataGridView1.Rows.RemoveAt(RowIndexNV);
+                    foreach (DataGridViewCell cell in dataGridView1.SelectedCells)
+                    {
+                        int RowIndex = cell.RowIndex;
+                        dataGridView1.Rows.RemoveAt(RowIndex);
+                    }
                 }
                 catch
                 {

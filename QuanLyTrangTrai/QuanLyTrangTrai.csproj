@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Benh.cs" />
     <Compile Include="Chuong.cs" />
     <Compile Include="DangNhap.cs" />
     <Compile Include="Database.cs" />
@@ -55,6 +56,12 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBenh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBenh.Designer.cs">
+      <DependentUpon>FormBenh.cs</DependentUpon>
     </Compile>
     <Compile Include="FormChuong.cs">
       <SubType>Form</SubType>
@@ -74,6 +81,12 @@
     <Compile Include="FormDMK.Designer.cs">
       <DependentUpon>FormDMK.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormLichSuBenh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLichSuBenh.Designer.cs">
+      <DependentUpon>FormLichSuBenh.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormLoai.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,18 +99,32 @@
     <Compile Include="FormNhanVien.Designer.cs">
       <DependentUpon>FormNhanVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormNhapCSDL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNhapCSDL.Designer.cs">
+      <DependentUpon>FormNhapCSDL.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormTaiKhoan.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormTaiKhoan.Designer.cs">
       <DependentUpon>FormTaiKhoan.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormThuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormThuoc.Designer.cs">
+      <DependentUpon>FormThuoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thuoc.cs" />
     <Compile Include="FormVatNuoi.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormVatNuoi.Designer.cs">
       <DependentUpon>FormVatNuoi.cs</DependentUpon>
     </Compile>
+    <Compile Include="LichSuBenh.cs" />
     <Compile Include="Loai.cs" />
     <Compile Include="NhanVien.cs" />
     <Compile Include="Program.cs" />
@@ -105,6 +132,9 @@
     <Compile Include="VatNuoi.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBenh.resx">
+      <DependentUpon>FormBenh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormChuong.resx">
       <DependentUpon>FormChuong.cs</DependentUpon>
@@ -115,14 +145,23 @@
     <EmbeddedResource Include="FormDMK.resx">
       <DependentUpon>FormDMK.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormLichSuBenh.resx">
+      <DependentUpon>FormLichSuBenh.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormLoai.resx">
       <DependentUpon>FormLoai.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormNhanVien.resx">
       <DependentUpon>FormNhanVien.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormNhapCSDL.resx">
+      <DependentUpon>FormNhapCSDL.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormTaiKhoan.resx">
       <DependentUpon>FormTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormThuoc.resx">
+      <DependentUpon>FormThuoc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormVatNuoi.resx">
       <DependentUpon>FormVatNuoi.cs</DependentUpon>

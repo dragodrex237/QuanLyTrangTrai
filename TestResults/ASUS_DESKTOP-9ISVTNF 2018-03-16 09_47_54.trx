@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1634a19f-4035-4f2e-88f0-eb44dc85ff0b" name="ASUS@DESKTOP-9ISVTNF 2018-03-16 09:47:54" runUser="DESKTOP-9ISVTNF\ASUS" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="6d5f473a-d7e0-4660-9ed0-91dafc41f8fe">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ASUS_DESKTOP-9ISVTNF 2018-03-16 09_47_54">
+      <DeploymentItem filename="D:\project\QuanLyTrangTrai\QuanLyTrangTrai\bin\Debug\QuanLyTrangTrai.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-03-16T09:47:54.1049603+07:00" queuing="2018-03-16T09:47:54.2186379+07:00" start="2018-03-16T09:47:54.2236512+07:00" finish="2018-03-16T09:47:54.6957117+07:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DESKTOP-9ISVTNF" outcome="Warning" timestamp="2018-03-16T09:47:54.2186379+07:00">
+        <Text>Deployment is currently disabled. The deployment item 'UnitTestT4rangTrtai\TestData.csv' on test 'UnitTestTrangTrai.UnitTestTrangTrai.TestMethodSuaVatNuoi' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethodSuaVatNuoi" storage="d:\project\quanlytrangtrai\unittestt4rangtrtai\bin\debug\unittestt4rangtrtai.dll" id="2e74e2aa-8919-1b2e-0109-4c279e7ba774">
+      <DeploymentItems>
+        <DeploymentItem filename="UnitTestT4rangTrtai\TestData.csv" />
+      </DeploymentItems>
+      <Execution id="cfb53511-6a6a-48c8-8233-16294634b8a5" />
+      <TestMethod codeBase="D:/project/QuanLyTrangTrai/UnitTestT4rangTrtai/bin/Debug/UnitTestT4rangTrtai.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestTrangTrai.UnitTestTrangTrai, UnitTestT4rangTrtai, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethodSuaVatNuoi" />
+      <DataSource connectionString="|DataDirectory|\TestData.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="TestData#csv" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2e74e2aa-8919-1b2e-0109-4c279e7ba774" executionId="cfb53511-6a6a-48c8-8233-16294634b8a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cfb53511-6a6a-48c8-8233-16294634b8a5" testId="2e74e2aa-8919-1b2e-0109-4c279e7ba774" testName="TestMethodSuaVatNuoi" computerName="DESKTOP-9ISVTNF" duration="00:00:00.2854514" startTime="2018-03-16T09:47:54.2386920+07:00" endTime="2018-03-16T09:47:54.6816748+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cfb53511-6a6a-48c8-8233-16294634b8a5" resultType="DataDrivenTest">
+      <Counters error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="3" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="6d187f03-20a5-4840-8648-5a9395f5336f" parentExecutionId="cfb53511-6a6a-48c8-8233-16294634b8a5" testId="2e74e2aa-8919-1b2e-0109-4c279e7ba774" testName="TestMethodSuaVatNuoi" computerName="DESKTOP-9ISVTNF" duration="00:00:00.1348366" startTime="2018-03-16T09:47:54.5090951+07:00" endTime="2018-03-16T09:47:54.6486291+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cfb53511-6a6a-48c8-8233-16294634b8a5" dataRowInfo="0" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="7483f0c1-c162-4b7e-ab8b-210022be5183" parentExecutionId="cfb53511-6a6a-48c8-8233-16294634b8a5" testId="2e74e2aa-8919-1b2e-0109-4c279e7ba774" testName="TestMethodSuaVatNuoi" computerName="DESKTOP-9ISVTNF" duration="00:00:00.0206639" startTime="2018-03-16T09:47:54.6486291+07:00" endTime="2018-03-16T09:47:54.6691868+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cfb53511-6a6a-48c8-8233-16294634b8a5" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="8cc9e55e-1452-4d9b-a151-30ff9212b4c0" parentExecutionId="cfb53511-6a6a-48c8-8233-16294634b8a5" testId="2e74e2aa-8919-1b2e-0109-4c279e7ba774" testName="TestMethodSuaVatNuoi" computerName="DESKTOP-9ISVTNF" duration="00:00:00.0026262" startTime="2018-03-16T09:47:54.6691868+07:00" endTime="2018-03-16T09:47:54.6716459+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cfb53511-6a6a-48c8-8233-16294634b8a5" dataRowInfo="2" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

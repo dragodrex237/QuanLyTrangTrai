@@ -11,6 +11,8 @@ namespace QuanLyTrangTrai
 {
     public partial class FormDangNhap : Form
     {
+        public static bool KTCSDL = true;
+
         public FormDangNhap()
         {
             InitializeComponent();
@@ -26,16 +28,23 @@ namespace QuanLyTrangTrai
             {
                 if (txtPassword.Text != "")
                 {
-                    if (DangNhap.Instance.Login(txtUsename.Text, txtPassword.Text))
+                    try
                     {
-                        Form1 form1 = new Form1();
-                        this.Hide();
-                        form1.ShowDialog();
-                        this.Show();
+                        if (DangNhap.Instance.Login(txtUsename.Text, txtPassword.Text))
+                        {
+                            Form1 form1 = new Form1();
+                            this.Hide();
+                            form1.ShowDialog();
+                            this.Show();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Sai tài khoản hoặc mật khẩu");
+                        }
                     }
-                    else
+                    catch
                     {
-                        MessageBox.Show("Sai tài khoản hoặc mật khẩu");
+                        MessageBox.Show("Không thể tìm thấy bảng. Vui lòng chạy lại Cơ Sở Dữ Liệu trong Sql Server");
                     }
                 }
                 else
@@ -80,6 +89,18 @@ namespace QuanLyTrangTrai
 
         private void FormDangNhap_Load(object sender, EventArgs e)
         {
+            int test = Database.Instance.Test();
+            if (test == 0)
+            {
+                KTCSDL = false;
+                FormNhapCSDL fm = new FormNhapCSDL();
+                fm.ShowDialog();
+                if (KTCSDL == false)
+                {
+                    this.Close();
+                    Environment.Exit(1);
+                }
+            }
             button1.Focus();
         }
     }

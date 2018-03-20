@@ -1,0 +1,9 @@
+D:\project\QuanLyTrangTrai\UnitTestT4rangTrtai\obj\Debug\UnitTestTrangTrai.csprojResolveAssemblyReference.cache
+D:\project\QuanLyTrangTrai\UnitTestT4rangTrtai\bin\Debug\UnitTestT4rangTrtai.dll
+D:\project\QuanLyTrangTrai\UnitTestT4rangTrtai\bin\Debug\UnitTestT4rangTrtai.pdb
+D:\project\QuanLyTrangTrai\UnitTestT4rangTrtai\bin\Debug\QuanLyTrangTrai.exe
+D:\project\QuanLyTrangTrai\UnitTestT4rangTrtai\bin\Debug\QuanLyTrangTrai.pdb
+D:\project\QuanLyTrangTrai\UnitTestT4rangTrtai\obj\Debug\UnitTestT4rangTrtai.dll
+D:\project\QuanLyTrangTrai\UnitTestT4rangTrtai\obj\Debug\UnitTestT4rangTrtai.pdb
+D:\project\QuanLyTrangTrai\UnitTestT4rangTrtai\bin\Debug\UnitTestT4rangTrtai.dll.config
+D:\project\QuanLyTrangTrai\UnitTestT4rangTrtai\bin\Debug\TestData.csv

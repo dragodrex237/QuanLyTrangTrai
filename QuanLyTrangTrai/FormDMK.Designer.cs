@@ -163,7 +163,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtUsename);
             this.Name = "FormDMK";
-            this.Text = "FormDMK";
+            this.Text = "Thay Đổi Mật Khẩu";
             this.Load += new System.EventHandler(this.FormDMK_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

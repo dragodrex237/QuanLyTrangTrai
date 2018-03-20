@@ -29,11 +29,41 @@ namespace QuanLyTrangTrai
         }
         public DataTable LoadTable(string sql)
         {
-            Init();
-            SqlDataAdapter da = new SqlDataAdapter(sql, cnn);
-            DataTable dt = new DataTable();
-            da.Fill(dt);
-            return dt;
+            try
+            {
+                Init();
+                SqlDataAdapter da = new SqlDataAdapter(sql, cnn);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+                return dt;
+            }
+            catch
+            {
+                throw;
+            }
+        }
+        public int Test()
+        {
+            cnstr = ConfigurationManager.ConnectionStrings["cnstr"].ConnectionString;
+            using (SqlConnection cnn = new SqlConnection(cnstr))
+            {
+                try
+                {
+                    cnn.Open();
+                    if (cnn.State == ConnectionState.Open)
+                    {
+                        /*SqlCommand cmd = new SqlCommand("select * from VatNuoi");
+                        cmd.ExecuteNonQuery();*/
+                        return 1;
+                    }
+                    else
+                        return 0;
+                }
+                catch
+                {
+                    return 0;
+                }
+            }
         }
     }
 }

@@ -120,7 +120,7 @@
             this.Controls.Add(this.txtUsename);
             this.Name = "FormDangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormDangNhap";
+            this.Text = "Đăng Nhập";
             this.Load += new System.EventHandler(this.FormDangNhap_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FormDangNhap_KeyDown);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.FormDangNhap_KeyPress);

@@ -13,6 +13,8 @@ namespace QuanLyTrangTrai
     {
         public static int LTK;
         public static string tenTK;
+        
+
         public Form1()
         {
             InitializeComponent();
@@ -45,6 +47,7 @@ namespace QuanLyTrangTrai
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            
             if (LTK == 1)
             {
                 labelTK.Text = "Xin chào Quản Trị Viên";
@@ -88,6 +91,24 @@ namespace QuanLyTrangTrai
             {
                 MessageBox.Show("Bạn không đủ thẩm quyền để truy cập chức năng này");
             }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FormLichSuBenh fLSB = new FormLichSuBenh();
+            fLSB.ShowDialog();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            FormBenh fBN = new FormBenh();
+            fBN.ShowDialog();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            FormThuoc fTH = new FormThuoc();
+            fTH.ShowDialog();
         }
     }
 }

@@ -205,7 +205,7 @@
             this.Controls.Add(this.btSave);
             this.Controls.Add(this.dataGridView1);
             this.Name = "FormVatNuoi";
-            this.Text = "FormVatNuoi";
+            this.Text = "Quản Lý Vật Nuôi";
             this.Load += new System.EventHandler(this.FormVatNuoi_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

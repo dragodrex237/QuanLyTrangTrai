@@ -151,7 +151,7 @@
             this.Controls.Add(this.btSave);
             this.Controls.Add(this.dataGridView1);
             this.Name = "FormLoai";
-            this.Text = "FormLoai";
+            this.Text = "Quản Lý Loài Vật Nuôi";
             this.Load += new System.EventHandler(this.FormLoai_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
